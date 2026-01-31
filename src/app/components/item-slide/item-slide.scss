@@ -7,3 +7,10 @@
   width: 50%;
   height: 50%;
 }
+
+.slide-container{
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+}
