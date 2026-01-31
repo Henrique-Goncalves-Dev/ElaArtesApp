@@ -1,53 +1,73 @@
-header{
+header {
   display: block;
   align-content: center;
-  background: #FFD1DC;
+  background: #F9D5E5;
   height: 10vh;
   box-shadow: 0 1px 3px 0 rgba(16, 24, 40, 0.10), 0 1px 2px 0 rgba(16, 24, 40, 0.06);
   min-height: 64px;
 }
 
-input{
+input {
   border: 1px solid #DCDCDC;
   border-left: transparent;
   box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.5);
   padding: 6px 12px;
-  border-right-radius: 10px;
-  &:focus{
+
+  &:focus {
     outline: none;
   }
 }
 
-.main-title{
-  color: #FA8072;
+.main-title {
+
+  color: #E57373;
   font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
+
 }
 
-.main-menu{
+.main-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0 0.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.input-search{
+.input-search {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   align-content: center;
 
 
-
-  img{
+  img {
     border: 1px solid #DCDCDC;
-    background: #FFF ;
+    background: #FFF;
 
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.5);
     padding: 2px 6px;
     border-right: transparent;
 
+  }
+}
+
+.contact-about {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0 0.5rem 0 0;
+
+
+  span {
+    color: #6D4C41;
+    font-family: "Cedarville Cursive", cursive;
+
+    &:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-item-slide',
@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ItemSlide {
 
+  @Input() title: string = 'Fotos';
+  @Input() description: string = 'Itens de resina para colocar foto';
+  @Input() imageUrl: string = 'Teste';
+  @Input() price: string = 'Teste';
 }
