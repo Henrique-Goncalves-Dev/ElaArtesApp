@@ -10,6 +10,6 @@ export class ItemSlide {
 
   @Input() title: string = 'Fotos';
   @Input() description: string = 'Itens de resina para colocar foto';
-  @Input() imageUrl: string = 'Teste';
-  @Input() price: string = 'Teste';
+  @Input() imageUrl: string = 'assets/home-icon.svg';
+  @Input() price: string = 'R$20,00';
 }
